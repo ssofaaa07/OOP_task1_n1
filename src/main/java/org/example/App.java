@@ -3,25 +3,13 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
+public class App {
 
     String str = "uffheofrh fhfdk fhjd{} f";
 
     public App(String str) {
         this.str = str;
     }
-
-//    public static void main() {
-//        App str1 = new App("uffheofrh fhfdk fhjd{} f");
-//        System.out.println(str1.index("fhf"));
-//        List<String> list = str1.split(" ");
-//        System.out.println(list);
-//    }
 
     public int index(String path) {
         for (int i = 0; i < str.length() - path.length() + 1; i++) {
