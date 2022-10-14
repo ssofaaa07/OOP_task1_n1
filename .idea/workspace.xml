@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2910520e-a1e2-492a-be12-41b20f34af40" name="Changes" comment="&lt;&lt;&gt;&gt;" />
+    <list default="true" id="2910520e-a1e2-492a-be12-41b20f34af40" name="Changes" comment="&lt;&lt;&gt;&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,23 +25,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/s.butovetskaya/Бутовецкая Софья/ВГУ/22_13/Курсы 2022-23/ООП/Tasks/untitled2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.AppTest">
+}</component>
+  <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application">
-      <module name="untitled2" />
+      <module name="Task1_n1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled2" />
+    <configuration name="MySimpleStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1_n1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -46,14 +53,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MySimpleStringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled2" />
+    <configuration name="MySimpleStringTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1_n1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -63,15 +70,15 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MySimpleStringTest" />
       <option name="METHOD_NAME" value="testApp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled2" />
+    <configuration name="MySimpleStringTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1_n1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -79,15 +86,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MySimpleStringTest" />
       <option name="METHOD_NAME" value="testEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled2" />
+    <configuration name="MySimpleStringTest.testIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1_n1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -95,7 +102,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MySimpleStringTest" />
+      <option name="METHOD_NAME" value="testIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySimpleStringTest.testSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1_n1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MySimpleStringTest" />
       <option name="METHOD_NAME" value="testSplit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -104,17 +127,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.AppTest" />
-      <item itemvalue="JUnit.AppTest.testEquals" />
-      <item itemvalue="JUnit.AppTest.testSplit" />
-      <item itemvalue="JUnit.AppTest.testApp" />
+      <item itemvalue="JUnit.MySimpleStringTest" />
+      <item itemvalue="JUnit.MySimpleStringTest.testApp" />
+      <item itemvalue="JUnit.MySimpleStringTest.testEquals" />
+      <item itemvalue="JUnit.MySimpleStringTest.testIndex" />
+      <item itemvalue="JUnit.MySimpleStringTest.testSplit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.testEquals" />
-        <item itemvalue="JUnit.AppTest.testSplit" />
-        <item itemvalue="JUnit.AppTest.testApp" />
+        <item itemvalue="JUnit.MySimpleStringTest.testEquals" />
+        <item itemvalue="JUnit.MySimpleStringTest" />
+        <item itemvalue="JUnit.MySimpleStringTest.testIndex" />
+        <item itemvalue="JUnit.MySimpleStringTest.testSplit" />
+        <item itemvalue="JUnit.MySimpleStringTest.testApp" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +151,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665645658873</updated>
-      <workItem from="1665645661264" duration="6712000" />
+      <workItem from="1665645661264" duration="7762000" />
+      <workItem from="1665654826990" duration="1753000" />
+      <workItem from="1665776294952" duration="10000" />
+      <workItem from="1665776444725" duration="635000" />
+      <workItem from="1665777260365" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;&lt;&gt;&gt;">
       <created>1665653172802</created>
@@ -135,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665653172802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&lt;&lt;&gt;&gt;">
+      <created>1665653359224</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665653359224</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

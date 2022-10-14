@@ -3,11 +3,11 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class App {
+public class MySimpleString implements MyString {
 
     String str = "uffheofrh fhfdk fhjd{} f";
 
-    public App(String str) {
+    public MySimpleString(String str) {
         this.str = str;
     }
 
