@@ -11,6 +11,12 @@ public class MySimpleString implements MyString {
         this.str = str;
     }
 
+    /**
+     Метод для нахождения первого вхождение подстроки в строку.
+     Если подстрока не найдена, выведет -1.
+
+     path - искомая подстрока
+     */
     public int index(String path) {
         for (int i = 0; i < str.length() - path.length() + 1; i++) {
             if (str.substring(i, i + path.length()).equals(path)) {
@@ -20,10 +26,21 @@ public class MySimpleString implements MyString {
         return -1;
     }
 
+    /**
+     Метод для соединения строки со строкой. Передаваемая строка присоединяется слева.
+
+     s - присоединяемая строка
+     */
     public String join(String s) {
         return str = str + s;
     }
 
+    /**
+     Метод для разбиения строки на строчки по разделителю.
+     Сам разделитель не входит в полученный список строчек.
+
+     path - строка, по которой происходит разбиение
+     */
     public List<String> split(String path) {
         List<String> list = new ArrayList<String>();
         String newStr;
@@ -36,7 +53,9 @@ public class MySimpleString implements MyString {
             }
             i++;
         }
-        if (str.substring(str.length() - path.length(), str.length() - path.length() + 1).equals(path)) {
+        // проверка - оказался ли разделитель в конце строки
+        if (str.substring(str.length() - path.length(),
+                str.length() - path.length() + 1).equals(path)) {
             list.add(str.substring(k, str.length() - 1));
         } else {
             list.add(str.substring(k));
@@ -44,6 +63,12 @@ public class MySimpleString implements MyString {
         return list;
     }
 
+    /**
+     Метод для замены шаблона на замену.
+
+     sample - шаблон
+     replace - замена
+     */
     public String replace(String sample, String replace) {
         int index = this.index(sample);
         String newStr;
@@ -58,6 +83,7 @@ public class MySimpleString implements MyString {
             }
             i++;
         }
+        // проверка - оказался ли шаблон в конце строки
         if (str.substring(str.length() - sample.length(), str.length() - sample.length() + 1).equals(sample)) {
             sb.append(str.substring(k, str.length() - 1));
         } else {
@@ -67,10 +93,21 @@ public class MySimpleString implements MyString {
         return newStr;
     }
 
+    /**
+     Метод для замены {} на передаваемою строку.
+
+     format - замена
+     */
     public String format(String format) {
         return this.replace("{}", format);
     }
 
+    /**
+     Метод для сравнения двух строк.
+     Если равны выведет true, а если нет - false.
+
+     path - строка, с которой просиходит сравнение
+     */
     public boolean equals(String path) {
         if (path.length() != str.length()) {
             return false;

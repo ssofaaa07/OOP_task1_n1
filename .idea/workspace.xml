@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2910520e-a1e2-492a-be12-41b20f34af40" name="Changes" comment="&lt;&lt;&gt;&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2910520e-a1e2-492a-be12-41b20f34af40" name="Changes" comment="&lt;&lt;Создание интерфейса для класса MySimpleString&gt;&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MySimpleString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MySimpleString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,19 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/s.butovetskaya/Бутовецкая Софья/ВГУ/22_13/Курсы 2022-23/ООП/Tasks/untitled2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/s.butovetskaya/Бутовецкая Софья/ВГУ/22_13/Курсы 2022-23/ООП/Tasks/untitled2",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.MySimpleStringTest">
     <configuration name="App" type="Application" factoryName="Application">
       <module name="Task1_n1" />
       <method v="2">
@@ -135,8 +142,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MySimpleStringTest.testEquals" />
         <item itemvalue="JUnit.MySimpleStringTest" />
+        <item itemvalue="JUnit.MySimpleStringTest.testEquals" />
         <item itemvalue="JUnit.MySimpleStringTest.testIndex" />
         <item itemvalue="JUnit.MySimpleStringTest.testSplit" />
         <item itemvalue="JUnit.MySimpleStringTest.testApp" />
@@ -156,6 +163,7 @@
       <workItem from="1665776294952" duration="10000" />
       <workItem from="1665776444725" duration="635000" />
       <workItem from="1665777260365" duration="810000" />
+      <workItem from="1665778618595" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;&lt;&gt;&gt;">
       <created>1665653172802</created>
@@ -171,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665653359224</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&lt;&lt;Создание интерфейса для класса MySimpleString&gt;&gt;">
+      <created>1665778910210</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665778910210</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;&lt;&gt;&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;&lt;&gt;&gt;" />
+    <MESSAGE value="&lt;&lt;Создание интерфейса для класса MySimpleString&gt;&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;&lt;Создание интерфейса для класса MySimpleString&gt;&gt;" />
   </component>
 </project>
