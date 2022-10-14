@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2910520e-a1e2-492a-be12-41b20f34af40" name="Changes" comment="&lt;&lt;Создание интерфейса для класса MySimpleString&gt;&gt;">
+    <list default="true" id="2910520e-a1e2-492a-be12-41b20f34af40" name="Changes" comment="&lt;&lt;Добавление комментариев к методам&gt;&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MySimpleString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MySimpleString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MySimpleStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MySimpleStringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/s.butovetskaya/Бутовецкая Софья/ВГУ/22_13/Курсы 2022-23/ООП/Tasks/untitled2",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -62,24 +63,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.MySimpleStringTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MySimpleStringTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Task1_n1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MySimpleStringTest" />
-      <option name="METHOD_NAME" value="testApp" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySimpleStringTest.testReplace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1_n1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MySimpleStringTest" />
+      <option name="METHOD_NAME" value="testReplace" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MySimpleStringTest.testSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task1_n1" />
       <extension name="coverage">
@@ -135,18 +134,18 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.MySimpleStringTest" />
-      <item itemvalue="JUnit.MySimpleStringTest.testApp" />
       <item itemvalue="JUnit.MySimpleStringTest.testEquals" />
       <item itemvalue="JUnit.MySimpleStringTest.testIndex" />
+      <item itemvalue="JUnit.MySimpleStringTest.testReplace" />
       <item itemvalue="JUnit.MySimpleStringTest.testSplit" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MySimpleStringTest" />
+        <item itemvalue="JUnit.MySimpleStringTest.testReplace" />
         <item itemvalue="JUnit.MySimpleStringTest.testEquals" />
         <item itemvalue="JUnit.MySimpleStringTest.testIndex" />
         <item itemvalue="JUnit.MySimpleStringTest.testSplit" />
-        <item itemvalue="JUnit.MySimpleStringTest.testApp" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,7 @@
       <workItem from="1665776294952" duration="10000" />
       <workItem from="1665776444725" duration="635000" />
       <workItem from="1665777260365" duration="810000" />
-      <workItem from="1665778618595" duration="987000" />
+      <workItem from="1665778618595" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;&lt;&gt;&gt;">
       <created>1665653172802</created>
@@ -186,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665778910210</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&lt;&lt;Добавление комментариев к методам&gt;&gt;">
+      <created>1665779627514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665779627514</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +212,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;&lt;&gt;&gt;" />
     <MESSAGE value="&lt;&lt;Создание интерфейса для класса MySimpleString&gt;&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;&lt;Создание интерфейса для класса MySimpleString&gt;&gt;" />
+    <MESSAGE value="&lt;&lt;Добавление комментариев к методам&gt;&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;&lt;Добавление комментариев к методам&gt;&gt;" />
   </component>
 </project>
